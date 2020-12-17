@@ -1,3 +1,9 @@
-const es6 = () => alert("Game Started");
+import 'phaser';
+import SampleScene from './scenes/sample-scene';
 
-es6();
+const gameConfig = {
+  width: 680,
+  height: 400,
+  scene: SampleScene
+};
+new Phaser.Game(gameConfig);
