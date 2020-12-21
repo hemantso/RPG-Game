@@ -8,7 +8,7 @@ module.exports = {
   entry: ['@babel/polyfill', './src/index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js'
+    filename: 'main.js',
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -24,9 +24,9 @@ module.exports = {
       use: {
         loader: 'file-loader',
         options: {
-          outputPath: 'assets'
-        }
-      }
+          outputPath: 'assets',
+        },
+      },
     },
     {
       test: /\.(mp3|wav|wma|ogg)$/,
@@ -45,15 +45,15 @@ module.exports = {
       use: {
         loader: 'babel-loader',
         options: {
-          presets: ['@babel/preset-env']
-        }
-      }
-    }
-    ]
+          presets: ['@babel/preset-env'],
+        },
+      },
+    },
+    ],
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     port: 9000,
 
-  }
+  },
 };

@@ -1,7 +1,6 @@
 export default class EndScene {
-
   preload() {
-    this.load.image('replay', replay);
+    this.load.image('replay', replay);// eslint-disable-line 
   }
 
   create() {

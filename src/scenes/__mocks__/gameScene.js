@@ -1,26 +1,25 @@
-export default class GameScene{
-
+export default class GameScene {
   preload() {
-    this.load.image('bg', forest);
+    this.load.image('bg', forest);// eslint-disable-line 
 
-    this.load.image('run1', run1);
-    this.load.image('run2', run2);
-    this.load.image('run3', run3);
-    this.load.image('run4', run4);
-    this.load.image('run5', run5);
-    this.load.image('run6', run6);
-    this.load.image('run7', run7);
+    this.load.image('run1', run1);// eslint-disable-line 
+    this.load.image('run2', run2);// eslint-disable-line 
+    this.load.image('run3', run3);// eslint-disable-line 
+    this.load.image('run4', run4);// eslint-disable-line 
+    this.load.image('run5', run5);// eslint-disable-line 
+    this.load.image('run6', run6);// eslint-disable-line 
+    this.load.image('run7', run7);// eslint-disable-line 
 
-    this.load.image('banana', banana);
-    this.load.image('enemy', enemy);
+    this.load.image('banana', banana);// eslint-disable-line 
+    this.load.image('enemy', enemy);// eslint-disable-line 
 
-    this.load.image('Jump1', Jump1);
-    this.load.image('Jump2', Jump2);
-    this.load.image('Jump3', Jump3);
-    this.load.image('Jump4', Jump4);
-    this.load.image('Jump5', Jump5);
-    this.load.image('Jump6', Jump6);
-    this.load.image('Jump7', Jump7);
+    this.load.image('Jump1', Jump1);// eslint-disable-line 
+    this.load.image('Jump2', Jump2);// eslint-disable-line 
+    this.load.image('Jump3', Jump3);// eslint-disable-line 
+    this.load.image('Jump4', Jump4);// eslint-disable-line 
+    this.load.image('Jump5', Jump5);// eslint-disable-line 
+    this.load.image('Jump6', Jump6);// eslint-disable-line 
+    this.load.image('Jump7', Jump7);// eslint-disable-line 
   }
 
   create() {

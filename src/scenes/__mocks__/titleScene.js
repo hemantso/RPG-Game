@@ -1,8 +1,7 @@
 export default class TitleScene {
-
   preload() {
-    this.load.image('controls', controls);
-    this.load.image('play', play);
+    this.load.image('controls', controls);// eslint-disable-line 
+    this.load.image('play', play);// eslint-disable-line 
   }
 
   create() {

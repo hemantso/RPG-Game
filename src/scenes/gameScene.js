@@ -160,7 +160,7 @@ export default class GameScene extends Phaser.Scene {
     }
   }
 
-  
+
   collectBanana(player, banana) { // eslint-disable-next-line class-methods-use-this
     banana.disableBody(true, true);
     this.game.score += 10;

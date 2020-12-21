@@ -1,9 +1,8 @@
 export default class BootScene {
-
   preload() {
-    this.load.image('background', wallpaper);
-    this.load.image('bananas', bananas);
-    this.load.image('monkey', monkey);
+    this.load.image('background', wallpaper); // eslint-disable-line 
+    this.load.image('bananas', bananas);// eslint-disable-line
+    this.load.image('monkey', monkey);// eslint-disable-line
   }
 
   create() {
