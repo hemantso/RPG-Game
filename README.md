@@ -12,6 +12,7 @@
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
+- [Game Design](#game-design)
 - [Author](#author)
 
 ## Concept
@@ -79,6 +80,45 @@ git clone https://github.com/hemant-soni-vst-au4/RPG-Game
 
 Run `npm test` to test the application using JEST
 
+## Game Design
+
+### Themes
+
+The game is consists of only one forest theme.
+
+### Gameflow
+
+The game is looped around the same forest with bananas pops over again after monkey moved to the end of the forest. After the first loop, the attack of wild cats will begin. The attack of wild cats will become more often based on the speed of the monkey.
+
+## Development
+
+### Boot Scene
+
+This scene is a boot scene and represents the basic concept of the game with a wallper.
+
+### Title Scene
+
+This scene have a player name input feature and play button to start the game.
+
+### Game Scene
+
+The core game scene comes hear with a live score board.
+
+### End Scene
+
+The end scene have a player score of a game and the top five scores of the all games.
+
+## Game Art
+
+Graphics required for monkey, bananas, wild cats and forest layers.
+
+## Sounds
+
+### Sounds Needed
+
+Monkey running and Jumping noises.
+Wild cat running noises.
+Sounds when collecting bananas.
 
 ## Author
 
