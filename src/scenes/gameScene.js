@@ -187,6 +187,8 @@ export default class GameScene extends Phaser.Scene {
       body: data,
     };
 
-    return fetch(url, fetchData).then((response) => response.json());
+    return fetch(url, fetchData).then((response) => response.json()).catch(err => {
+      console.log(err)// eslint-disable-line
+    });
   }
 }
