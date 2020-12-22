@@ -68,7 +68,9 @@ export default class EndScene extends Phaser.Scene {
 
     const scores = fetch(url, fetchData)
       .then((response) => response.json())
-      .then((data) => data.result);
+      .then((data) => data.result).catch(err => {
+        console.log(err);// eslint-disable-line
+      });
     return scores;
   }
 }
